@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <string.h>
 
 int main(void) {
 	int mc, ip, ics, ls;
