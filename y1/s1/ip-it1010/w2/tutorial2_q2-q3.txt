@@ -5,17 +5,17 @@ i.
 ***
 ****
 *****
-ii.		5
+ii.	5
 iii.	x =
-iv.		2
-v.		5 = 5
-vi.		No output
+iv.	2
+v.	5 = 5
+vi.	No output
 vii.	New line
 viii.	45.57
 
 Q3)
-a)	i.	3.45
+a)	i.  3.45
 	ii. 3.5
-b)	i.	printf(%.2f, 123.4567);
+b)	i.  printf(%.2f, 123.4567);
 	ii. printf(%.3f, 3.14159);
 	iii.Question is not clear :)
