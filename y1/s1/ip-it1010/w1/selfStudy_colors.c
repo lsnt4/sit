@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "w1_selfStudy_colors.h"
+#include "selfStudy_colors.h"
 
 int main() {
 	printf(ANSI_COLOR_RED		"RED "		ANSI_COLOR_RESET);
