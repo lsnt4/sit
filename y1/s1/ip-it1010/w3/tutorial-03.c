@@ -54,14 +54,3 @@ int q2() {
 		printf("Not a 5 digit number\n");
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
