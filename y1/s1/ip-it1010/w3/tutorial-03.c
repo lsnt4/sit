@@ -51,7 +51,7 @@ int q2() {
 		}
 
 	} else {
-		printf("It was not a 5 digit number\n");
+		printf("Not a 5 digit number\n");
 	}
 }
 
