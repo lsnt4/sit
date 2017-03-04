@@ -19,7 +19,7 @@ int t4_q2() {
 	float beginningBalance, creditLimit, totalCredits, totalCharges;
 
 	printf("Account Number: ");		scanf("%d", &accNum);
-	printf("Beginning Balance: ");	scanf("%f", &beginningBalance);
+	printf("Beginning Balance: ");		scanf("%f", &beginningBalance);
 	printf("Credit Limit: ");		scanf("%f", &creditLimit);
 	printf("Total Credits: ");		scanf("%f", &totalCredits);
 	printf("Total Charges: ");		scanf("%f", &totalCharges);
