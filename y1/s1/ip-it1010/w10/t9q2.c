@@ -26,5 +26,4 @@ double hypotenuse(double x, double y) {
 
 	hypotenuse = sqrt( pow(x, 2) + pow(y, 2) );
 	return hypotenuse;
-
 }
