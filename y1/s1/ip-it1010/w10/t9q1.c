@@ -33,7 +33,6 @@ int main(void) {
 	printf("Tot\t%.2f\t%.2f\n", h1 + h2 + h3, c1p + c2p + c3p);
 
 	return 0;
-
 }
 
 
