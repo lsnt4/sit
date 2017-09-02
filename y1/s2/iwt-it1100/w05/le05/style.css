@@ -1,0 +1,215 @@
+body {
+	background-color: #808080;
+	margin: 0px;
+	padding: 0px;
+	font-family: "Times New Roman", Times, serif;
+}
+
+#logo {
+	width: 240px;
+	margin: -48px auto;
+	padding: 10px;
+}
+
+.admin-menu {
+	float: right;
+	padding: 30px 10px;
+}
+
+.admin-menu a {
+	padding-right: 10px;
+	color: blue;
+}
+
+.page-title {
+	font-size: 26px;
+	color: #fff;
+	right: 20px;
+	top: 60px;
+	position: absolute;
+	font-family: times;
+	font-weight: bold;
+}
+
+.page-nav {
+	background-color: #333333;
+	margin: 10px;
+	padding: 5px 30px;
+}
+
+.page-nav ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+.page-nav li {
+	list-style: none;
+	display: inline;
+	padding-right: 40px;
+}
+
+.page-nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.sub-container {
+	background: #d3d3d3;
+	display: inline-block;
+	width: 100%;
+}
+
+.sidebar {
+	float: left;
+	width: 15%;
+	padding: 15px;
+}
+
+.seperator {
+	width: 1px;
+	background: #000;
+	height: 640px;
+	float: left;
+	margin: 0px 2px 0px 15px;
+}
+
+.contents {
+	float: left;
+	width: 80%;
+	overflow: hidden;
+}
+
+.slider {
+	margin: 10px;
+}
+
+.slider img {
+	width: 100%;
+	height: 520px;
+}
+
+.sidebar ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.sidebar li {
+	margin: 5px 0px;
+}
+
+.sidebar a:link, .sidebar a:hover, .sidebar a:visited {
+	color: blue;
+	text-decoration: none;
+
+}
+
+.libfac {
+	margin: 10px;
+}
+
+.libfac ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.libfac li {
+	float: left;
+	width: 20%;
+	border: 1px black solid;
+	margin: 10px;
+	padding: 10px;
+	height: 100px;
+}
+
+.libfac img {
+	height: 60px;
+}
+
+.libfac p {
+	list-style: disc outside none;
+	display: list-item;
+	margin-left: 10px;
+}
+
+.footer {
+	text-align: center;
+	padding: 5px 0px;
+	color: #fff;
+}
+
+.regform {
+	width: 520px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.tblRegForm {
+	margin: 0 auto;
+	text-align: left;
+}
+
+.tblRegForm input {
+	width: 360px;
+	margin: 10px 0px 10px 0px;
+}
+
+.tblRegForm select {
+	width: 378px;
+	margin: 10px 0px 10px 0px;
+}
+
+.tblRegForm textarea {
+	width: 374px;
+	height: 80px;
+	margin: 10px 0px 10px 0px;
+}
+
+.tblRegForm .rdoDT {
+	width: 20px;
+}
+
+#frmBtnSubmit {
+	text-align: left;
+	margin: 10px auto 20px;
+}
+
+#frmBtnSubmit input {
+	background: blue;
+	border: 0px;
+	padding: 8px 16px;
+	border-radius: 5px;
+	margin-right: 40px;
+	color: white;
+}
+
+
+/* LE05 */
+.loginform, .tblFeeForm {
+	width: 420px;
+	margin: 50px auto;
+}
+
+.loginform h4, .feeform h4 {
+    text-align: center;
+}
+
+.loginform table {
+    width: 420px;
+}
+
+#frmLoginSubmit input {
+    width: 280px;
+}
+
+#logbtn {
+	width: 120px;
+}
+
+.loginform button, .tblFeeForm button {
+	background-color: #00f;
+	border: 0px;
+	padding: 8px 16px;
+	border-radius: 5px;
+}

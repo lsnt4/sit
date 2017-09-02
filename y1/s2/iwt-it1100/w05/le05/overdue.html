@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SLIIT Library</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript">
+		function checkdue() {
+			var retday = document.getElementById('retday').value;
+			var curday = document.getElementById('curday').value;
+			var fine_per_day = 50.00;
+
+			if (retday && curday && typeof(retday) !== 'undefined' && typeof(curday) !== 'undefined') {
+				retday_obj = new Date(retday);
+				curday_obj = new Date(curday);
+
+				var date_diff = (curday_obj - retday_obj) / (1000 * 60 * 60 * 24); // Milliseconds * seconds * minutes * hours
+
+				alert("Over due by " + date_diff + " days. Total due fee is: " + (date_diff * fine_per_day));
+
+			} else {
+				alert('Invalid or empty date!');
+			}
+
+		}
+		function resetform() {
+			document.getElementById('retday').value = '';
+			document.getElementById('curday').value = '';
+		}
+	</script>
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<img src="SLIIT.png" alt="Logo" id="logo">
+			<div class="admin-menu">
+				<a href="login.html">Login</a>
+				<a href="register.html">Register</a>
+				</ul>
+			</div>
+			<div class="page-title">SLIIT LIBRARY</div>
+		</div>
+		<nav class="page-nav">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="">About Us</a></li>
+				<li><a href="">Membership</a></li>
+				<li><a href="">Search</a></li>
+				<li><a href="">New Arrivals</a></li>
+				<li><a href="">Staff</a></li>
+			</ul>
+		</nav>
+		<div class="sub-container">
+			<div class="sidebar">
+				<h3>Categories</h3>
+				<ul>
+					<li><a href="">OPAC Search</a></li>
+					<li><a href="">New Arrivals</a></li>
+					<li><a href="">How to Become a Member</a></li>
+					<li><a href="">Central Bank of Sri Lanka</a></li>
+					<li><a href="">e-Repository</a></li>
+					<li><a href="">Dictionary</a></li>
+					<li><a href="">Library Policies</a></li>
+					<li><a href="">University of Moratuwa</a></li>
+				</ul>
+				<h3>E-Resources</h3>
+				<p>Find the Journals</p>
+				<a href="">Online Journals</a>
+				<p>Access the available databases</p>
+				<a href="">Databases</a>
+				<p>Getting start with research?</p>
+				<a href="">Research Papers</a>
+				<p>What is done already?</p>
+				<a href="">Thesis Dissertation</a>
+				<p>Help!!</p>
+				<a href="">Library Guide</a>
+				<p>Turnitin</p>
+				<a href="">Turnitin</a>
+			</div>
+			<div class="seperator"></div>
+			<div class="contents">
+				<div class="slider">
+					<img src="image.jpg">
+				</div>
+				<div class="feeform">
+					<table class="tblFeeForm">
+						<h4>Book Returning & Fee Calculation</h4>
+						<tr>
+							<td>Book Returning Due Date: </td>
+							<td><input type="text" name="retday" placeholder="mm/dd/yyyy" id="retday"></td>
+						</tr>
+						<tr>
+							<td>Current Date: </td>
+							<td><input type="text" name="curday" placeholder="mm/dd/yyyy" id="curday"></td>
+						</tr>
+						<tr>
+							<td><button type="submit" name="checkdue" onclick="checkdue()">Check for Due</button></td>
+							<td><button type="submit" name="reset" value="Reset" onclick="resetform()">Reset</button></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<span>Copyright @ Sri Lanka Institute of Information Technology. 2017 - All rights Reserved</span>
+		</div>
+	</div>
+</body>
+</html>
