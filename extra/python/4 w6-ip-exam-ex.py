@@ -15,6 +15,7 @@ class Taxi :
 			second25km = 55.00
 		else :
 			print "Invalid vehicle type"
+			return
 
 		if (self.distance <= 25) :
 			cost = self.distance * first25km
